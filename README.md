@@ -1,5 +1,12 @@
-# app
+# Landing Vue example 
+-spa
+-animation
+-validate form example
+-pdf download example
 
+```
+Demo https://landing-ffd8c.web.app/
+```
 ## Project setup
 ```
 npm install
