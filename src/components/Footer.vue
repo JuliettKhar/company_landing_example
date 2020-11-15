@@ -86,6 +86,7 @@ export default {
 
     a {
       color: #000000;
+      white-space: nowrap;
     }
 
     img {
