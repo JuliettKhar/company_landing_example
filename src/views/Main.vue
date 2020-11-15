@@ -266,7 +266,6 @@ main {
     }
 
     @include mobile {
-      margin-bottom: 50px;
       font-size: 20px;
       text-align: center;
     }

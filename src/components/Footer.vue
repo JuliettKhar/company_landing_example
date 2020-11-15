@@ -39,8 +39,7 @@ export default {
 
   &__contacts {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    max-width: 100%;
 
     @include tablet-only {
       justify-content: center;
@@ -49,8 +48,8 @@ export default {
 
     @include mobile {
       flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: center;
+      max-width: 183px;
+      margin: 0 auto;
       border-top: none;
     }
 

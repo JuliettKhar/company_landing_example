@@ -41,7 +41,6 @@ export default {
   &__logo {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     height: 100%;
     width: auto;
     margin: 0;
@@ -108,6 +107,13 @@ export default {
     align-items: flex-start;
     justify-content: flex-end;
     height: 100%;
+    
+
+    select {
+      display: flex;
+      align-items: center;
+      height: min-content;
+    }
 
     @include mobile {
       align-items: center;

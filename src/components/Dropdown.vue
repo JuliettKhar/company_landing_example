@@ -34,8 +34,7 @@ export default {
 .select {
   display: inline-flex;
   border: none;
-  width: 46px;
-  height: 100%;
+  width: 50px;
   font-weight: bold;
   font-size: 16px;
   color: #000000;
