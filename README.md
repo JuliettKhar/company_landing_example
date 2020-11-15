@@ -1,9 +1,9 @@
 # Landing Vue example 
--spa
--animation
--validate form example
--pdf download example
--localization
+- spa
+- animation
+- validate form example
+- pdf download example
+- localization
 
 ```
 Demo https://landing-ffd8c.web.app/
