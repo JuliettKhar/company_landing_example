@@ -39,5 +39,9 @@ export default {
   font-size: 16px;
   color: #000000;
   background: #fff;
+
+  @include mobile {
+    width: 56px;
+  }
 }
 </style>

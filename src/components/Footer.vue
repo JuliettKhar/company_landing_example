@@ -48,7 +48,7 @@ export default {
 
     @include mobile {
       flex-wrap: wrap;
-      max-width: 183px;
+      max-width: 194px;
       margin: 0 auto;
       border-top: none;
     }

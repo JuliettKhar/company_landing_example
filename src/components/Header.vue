@@ -41,6 +41,7 @@ export default {
   &__logo {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     height: 100%;
     width: auto;
     margin: 0;
@@ -62,7 +63,8 @@ export default {
       }
 
       @include mobile {
-        height: 38px;
+        height: min-content;
+        align-self: center;
         width: auto;
       }
     }
