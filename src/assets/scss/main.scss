@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* Переменные bulma */
+@import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+@import "~bulma/sass/utilities/derived-variables";
+@import "~bulma/sass/utilities/mixins";
+
+
+$container-max-width: 1136px;
+$footer-background-color: #fff;
+$footer-padding: 28px 0;
+$input-radius: 0;
+
+
+@import "~bulma";
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  font-family: Montserrat, sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+  & > div {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @include mobile {
+    padding: 0 10px;
+  }
+}
+
+.button {
+  border-radius: 0;
+}
+
+  @keyframes move-shapes {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+  @keyframes move-shapes-gorizontal {
+    0% {
+    transform: translateY(0);
+  }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(40px);
+    }
+  }
+
+  .text {
+    p {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      min-width: 200px;
+
+      span {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+}
+
+.word {
+  opacity: 0;
+  color: #c3002f;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(15px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(-90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

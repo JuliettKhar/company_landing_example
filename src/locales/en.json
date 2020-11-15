@@ -1,0 +1,22 @@
+{
+  "main": {
+    "development": "The site is under construction",
+    "offer": "but we have something to offer you!",
+    "products": "We create IT products on subcontracting. We provide services in the field",
+    "backend": "backend development",
+    "frontend": "frontend development",
+    "ux": "ux/ui design",
+    "mobile": "mobile development",
+    "presentation": "More details about our activity can be found in the presentation",
+    "download": "Download presentation",
+    "email": "Leave your email for communication",
+    "downloadButton": "Ok",
+    "validation": "Enter correct e-mail"
+  },
+  "footer": {
+    "contactUs": "Contact us"
+  },
+  "header": {
+    "partners": "Go to partner site"
+  }
+}
