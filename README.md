@@ -6,6 +6,7 @@ It serves as a template for creating responsive and visually appealing landing p
 - Form Validation: Example of validated contact forms.
 - Localization: Multi-language support.
 - PDF Download: Downloadable content feature.
+  
 You can view the live demo [here](https://landing-ffd8c.web.app/).
 
 ## Project setup
